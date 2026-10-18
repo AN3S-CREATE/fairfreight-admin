@@ -1,0 +1,4710 @@
+{
+  "root": {
+    "type": "root",
+    "children": [
+      {
+        "type": "text",
+        "id": "353d714b-af1d-4156-995f-05237debc557",
+        "text": {
+          "ops": [
+            {
+              "insert": "FairFright Website and App Development"
+            },
+            {
+              "insert": "\n",
+              "attributes": {
+                "paragraph": true
+              }
+            }
+          ]
+        },
+        "format": {
+          "node": "h1",
+          "children": "text"
+        },
+        "collapsed": false,
+        "completed": false,
+        "children": [
+          {
+            "type": "text",
+            "id": "94853807-b2c1-4284-b94f-aeeb9df9aff3",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Objective: Develop the FairFright website and app with automated and active processes."
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "bullet",
+              "children": "bullet"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "833b6767-fd77-4de0-ba02-ef5e86351c13",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Key Features and Modules Implemented",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "h2",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": [
+                  {
+                    "type": "text",
+                    "id": "dad7729a-f1f5-461a-aa32-a7939834a946",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Core Platform & User Management",
+                          "attributes": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": "text"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "8eb3faee-b8b2-401a-bcea-d6bbe905be5c",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "User Authentication:",
+                          "attributes": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": "bullet"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "29f363f3-41cd-4cee-bad1-8dd513f325f4",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "A secure sign-up and login system for all user types."
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": "bullet"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "fdba473b-c134-4f0b-9502-35526cf9aea9",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Role-Based Access Control:",
+                          "attributes": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": "bullet"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "62fe6c5b-8007-44e7-a7c8-146a9bad0424",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "The user interface and available features dynamically adapt based on whether the user is a shipper, transporter, or admin."
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": "bullet"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "03fe203c-38bc-4958-b00e-a4bfd711a802",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Transporter Vetting System:",
+                          "attributes": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": "bullet"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "3ea26c1c-af15-49b0-b3c6-6043ae4386d2",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "A critical security and quality feature where new transporters must be manually approved by an admin before they can access the marketplace, ensuring a high-quality network."
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": "bullet"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "ef52d835-add6-4958-bcc0-9a7d5585816c",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Public Landing Page:",
+                          "attributes": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": "bullet"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "91096f09-54d6-41eb-8833-7201d2ec2a6a",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "A professional, modern landing page that serves as the \"front door\" to the application, effectively communicating FairFreight's value proposition to new visitors."
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": "bullet"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "f76b5fa6-ae5f-4406-b5c5-b8562ac06916",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Profile Management:",
+                          "attributes": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": "bullet"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "ee6efab9-7d2a-4658-ae42-23915db0ea19",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "All users can manage their personal and organizational profiles, including updating contact details and company logos."
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": "bullet"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "e5d6988a-f959-42cb-a573-49d1cb143828",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Shipper Features (\"I have goods to move\")",
+                          "attributes": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": "text"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "0fc5721a-6b28-4919-8e8b-e152db4fca94",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Analytics Dashboard:",
+                          "attributes": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": "bullet"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "681c12a2-e9f3-4049-80f2-aeaffe429820",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Provides shippers with a quick overview of their key logistics metrics, including total spend and number of jobs posted."
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": "bullet"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "0a3443a3-e3db-40d0-8025-d4df08062929",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Spot Market:",
+                          "attributes": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": "bullet"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "322ddbeb-835b-47c6-83ef-8f3745d7dfff",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Shippers can quickly post immediate freight needs (both Full Truckload and Less-Than-Truckload) to the open market for transporters to bid on."
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": "bullet"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": [
+                      {
+                        "type": "text",
+                        "id": "6d4390a0-0cd4-4afd-8113-c9c3fa93a38d",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "AI Truck Suggestions:",
+                              "attributes": {
+                                "bold": true
+                              }
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": "bullet"
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "5ad6bddb-f2a8-4243-922d-907acafdf2e0",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "When posting a load, an AI-powered tool analyzes the freight details and suggests the most appropriate truck type."
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": "bullet"
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "id": "80450769-9ea7-4b8c-84c7-11e8c448d500",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "RFP & Contracts Market:",
+                          "attributes": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": "bullet"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "0acdb3d1-26d9-4147-b593-2db02406385b",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "For long-term needs, shippers can create detailed Requests for Proposals (RFPs), invite specific transporters to bid, review submissions, and award multi-year contracts."
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": "bullet"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "60af2093-2b96-4e41-9b40-4adc9c6703f9",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Job Management:",
+                          "attributes": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": "bullet"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "a9d2dbe4-a2f9-4930-a0d5-e8ff8a3ce579",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "A centralized view to track the status of all posted jobs, compare incoming bids, and award jobs to their chosen transporter."
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": "bullet"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "e64646f7-fcdf-4045-9875-a88ca3c99d26",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Financials Tracking:",
+                          "attributes": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": "bullet"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "1fa4f46d-4e84-4e34-8310-110297e6083b",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "A dedicated section to view all completed jobs and manage their payment status."
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": "bullet"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "34dba469-e07a-4590-a6dc-04b858499bab",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Transporter Rating:",
+                          "attributes": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": "bullet"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "154bf7a5-5de0-4644-9b09-b63694c4153d",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "After a job is completed, shippers can rate the transporter and leave a review, which contributes to the transporter's public-facing average rating."
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": "bullet"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "7f59ef0c-80fd-4006-8c5f-ff3c25b3780a",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Transporter Features (\"I have trucks to fill\")",
+                          "attributes": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": "text"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "7eb173e0-bcba-433f-8203-6a859dbd5d1f",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Analytics Dashboard:",
+                          "attributes": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": "bullet"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "359b4966-d99e-48a5-936f-d5f811aa6d57",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Gives transporters a snapshot of their business performance, including total earnings, jobs completed, and their average shipper rating."
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": "bullet"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "af0a7a72-79c3-485b-85fb-b38f54fb35b7",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Spot Market Access:",
+                          "attributes": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": "bullet"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "ce8ebb8f-4e06-47a3-bd50-6bfb9858ee13",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "A real-time view of all available loads on the market, with powerful filtering and searching capabilities to find the right jobs."
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": "bullet"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "40f32b33-f80f-481d-be5e-c6329ab6ddf3",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Bidding System:",
+                          "attributes": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": "bullet"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "4c86ccc1-6f4e-46a9-87bb-6d194ea1b9bb",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "A simple and intuitive interface to place competitive bids on available loads."
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": "bullet"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "66764f27-0895-411e-9f28-3e1709a18ba5",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Job & Status Management:",
+                          "attributes": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": "bullet"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "7151ca91-a27c-4386-8c26-9476307baa2a",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Once a job is won, transporters can update its status through the entire lifecycle, from \"En Route to Pickup\" all the way to \"Delivered\"."
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": "bullet"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "8af9875c-80f9-482d-b18c-9970f68d98f8",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "AI-Powered Route Optimizer:",
+                          "attributes": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": "bullet"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "ae3333a4-d970-4ad9-98fa-5d9227ea09fc",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "An integrated tool that provides AI-driven route suggestions for active jobs, helping transporters save time and fuel by considering traffic and historical data."
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": "bullet"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "40c27a5c-fda9-437c-84b1-a8f30f48969e",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Fleet Management:",
+                          "attributes": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": "bullet"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "f52f1a19-9b97-4134-a0a4-4df62d059e13",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "A dedicated section for transporters to add and manage the vehicles in their fleet."
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": "bullet"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "918220c0-04d7-4adb-a012-b5c2354c2f6a",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "LTL Trip Consolidation:",
+                          "attributes": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": "bullet"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "362ff898-07d5-4cdf-baec-e85c4cba9d20",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Transporters can plan multi-stop trips and consolidate Less-Than-Truckload (LTL) shipments from the marketplace onto a single truck, maximizing efficiency and profitability."
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": "bullet"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "a7c36a69-39b9-4024-bbd8-81acfa59b19b",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Administrator Features (\"I manage the platform\")",
+                          "attributes": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": "text"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "7306d85b-7a4b-49b1-a14c-23ce7a1753a9",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Platform-Wide Analytics:",
+                          "attributes": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": "bullet"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "8091f290-fb9a-44e4-baf5-732aecc4b694",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "A high-level dashboard that shows key metrics for the entire platform, such as total jobs created, gross marketplace value (GMV), and user counts."
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": "bullet"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "eb6e73fd-2b11-45b7-b6c2-1ddc9b22810f",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Transporter Vetting Queue:",
+                          "attributes": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": "bullet"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "46e9b72e-63b9-4b92-b436-733dd8dc1f19",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "A tool for admins to review and approve or reject pending transporter applications, ensuring the quality and integrity of the transporter network."
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": "bullet"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "fad9c5c8-8bd6-48d2-b48d-633d4f4b47e2",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Full Job Visibility:",
+                          "attributes": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": "bullet"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "d06eef59-29da-4221-951c-f9232d56746b",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Admins can view and monitor all jobs currently active on the platform.",
+                          "attributes": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": "text"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "id": "d65606d6-9772-4e83-990e-55210878b4b0",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "1. Landing Page Experience",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "h2",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": [
+                  {
+                    "type": "text",
+                    "id": "577394e2-cddb-4004-88bf-6349be174b59",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "What to Test:",
+                          "attributes": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": "text"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "00a756f3-b6ff-4916-98d9-25bf394c5502",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Navigate to the root URL of the application."
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": "bullet"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": [
+                      {
+                        "type": "text",
+                        "id": "fe7ade81-7101-44dd-8321-bf1436fc0896",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Does the new landing page with the black background and the \"Your Freight, On Time, Every Time\" headline appear correctly?"
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": "bullet"
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "id": "14d33147-1df7-472c-8ef4-02b0dc8c4c6c",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Click the "
+                        },
+                        {
+                          "insert": "\"Get Started\"",
+                          "attributes": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "insert": " and "
+                        },
+                        {
+                          "insert": "\"Sign In\"",
+                          "attributes": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "insert": " buttons."
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": "bullet"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": [
+                      {
+                        "type": "text",
+                        "id": "620d4c14-e1ef-4241-9dab-48b5b3374abf",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Do they navigate to the correct sign-up and login pages?"
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": "bullet"
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "id": "a801f4c2-63dd-4ff2-ba40-d213d69b2b60",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Go through the entire sign-up process for both a "
+                        },
+                        {
+                          "insert": "Shipper",
+                          "attributes": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "insert": " and a "
+                        },
+                        {
+                          "insert": "Transporter",
+                          "attributes": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "insert": "."
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": "bullet"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": [
+                      {
+                        "type": "text",
+                        "id": "27da9685-3cc9-4f97-9bf6-685110e635ab",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Is the flow intuitive?"
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": "bullet"
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "id": "e61e71fb-6e86-411c-8e58-33861b0ded64",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "2. AI-Powered Route Optimization (For Transporters)",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "h2",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": [
+                  {
+                    "type": "text",
+                    "id": "3c3e7a8a-b919-4296-82ee-ffd91fe46968",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "This is a key feature for transporters to improve their efficiency."
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": "text"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "5bab8ec6-4c10-4c18-b531-17b4cff0be91",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "What to Test:",
+                          "attributes": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": "text"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "bdb3fc16-1e63-414c-810a-346c54eb6bb6",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "As a "
+                        },
+                        {
+                          "insert": "Shipper",
+                          "attributes": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "insert": ", post a job and award it to a "
+                        },
+                        {
+                          "insert": "Transporter",
+                          "attributes": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "insert": "."
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": "bullet"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "4094902a-8f90-4bb8-9f40-3b97cbc600f4",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Log in as that "
+                        },
+                        {
+                          "insert": "Transporter",
+                          "attributes": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "insert": " and navigate to the \"My Jobs\" page."
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": "bullet"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "faaef48b-9cca-4ac8-a9ec-7be5df736814",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Open the details of the awarded job."
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": "bullet"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": [
+                      {
+                        "type": "text",
+                        "id": "602b2efc-d1cc-43e4-ba39-041f210eafae",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "You should see a button to "
+                            },
+                            {
+                              "insert": "\"Optimize Route\"",
+                              "attributes": {
+                                "bold": true
+                              }
+                            },
+                            {
+                              "insert": "."
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": "bullet"
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "id": "7ab8fb58-fdf8-456a-b733-a9e40afc6264",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Click the button."
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": "bullet"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": [
+                      {
+                        "type": "text",
+                        "id": "085a7924-ea97-435d-963f-0e6b1d517567",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Does a dialog appear with the origin and destination pre-filled?"
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": "bullet"
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "id": "2a4c5af4-d712-42e7-a64b-78a8349406a6",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Click "
+                        },
+                        {
+                          "insert": "\"Generate Route\"",
+                          "attributes": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "insert": "."
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": "bullet"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": [
+                      {
+                        "type": "text",
+                        "id": "5f520e10-e28a-49a5-9351-3eb4a8e9983a",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Does the AI provide a logical, optimized route suggestion, estimated time, and potential delays?"
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": "bullet"
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "id": "89d06d53-1424-4ee0-a2ee-77913258e246",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "3. Visual Theme and UI Consistency",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "h2",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": [
+                  {
+                    "type": "text",
+                    "id": "f136832d-2c55-4cbe-b7ef-e00a744cfc21",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "We updated the look and feel of the entire application."
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": "text"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "993f3100-d5f4-444a-85b0-7e2bd1609a71",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "What to Test:",
+                          "attributes": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": "text"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "5bd0ffcb-a355-4f5c-afc7-764e1750e87a",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Navigate through all the different pages of the dashboard (Dashboard, My Jobs, Spot Market, Financials, etc.)."
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": "bullet"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": [
+                      {
+                        "type": "text",
+                        "id": "2b11d9f3-f8d9-48c3-9d26-7afb76c7b700",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Is the new black/charcoal background applied consistently across the entire application?"
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": "bullet"
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "id": "1eb22db3-e5cb-4af3-a91e-a6a1674804f7",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Are all text, buttons, and UI elements clearly visible and legible against the new dark background?"
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": "bullet"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "id": "66c52c50-2909-41f6-b8a7-57886d84a53e",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "4. General Application Stability",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "h2",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": [
+                  {
+                    "type": "text",
+                    "id": "07c0e1d2-ca00-4a84-9b5a-6a387f0ec477",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "We fixed several critical bugs today."
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": "text"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "789da61e-2137-4a64-b720-34f44aac89d5",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "What to Test:",
+                          "attributes": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": "text"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "6fd29b76-a136-490c-b1cb-e49b14236f7e",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Simply use the application."
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": "bullet"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": [
+                      {
+                        "type": "text",
+                        "id": "f84427ac-94a3-4f7d-a61b-c299bbdafcef",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Refresh pages and navigate quickly between sections."
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": "bullet"
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "934d3569-b378-4610-bc9c-583354e08306",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "The application should feel stable without the previous startup errors or runtime crashes on the login page."
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": "bullet"
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "56377d9f-fa63-4cfb-a5b6-971ec6922e8c",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Team Roles"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h2",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "27bf1851-b3de-4943-a18b-bb9a03c23d6c",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Project Manager",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "number",
+                  "children": "number"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": [
+                  {
+                    "type": "text",
+                    "id": "3cd86cd0-862d-42dc-9f28-d6d15df7d8de",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Maintain a realistic schedule."
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": "bullet"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "9a001182-c2f9-416a-bb1e-43870ab7c8aa",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Assign All  tasks to @andries-lieb and @gq6g5ys4mf."
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": "bullet"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "attributes": {
+                      "@OxeBy": {
+                        "type": "Select",
+                        "optionId": "@iWlBW"
+                      },
+                      "@oNB07": {
+                        "type": "Select",
+                        "optionId": "@aboRe"
+                      }
+                    },
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "id": "d35d513a-5dad-40b5-afb8-e184c877cfd8",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Firebase Expert",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "number",
+                  "children": "number"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": [
+                  {
+                    "type": "text",
+                    "id": "5e40afc7-5e70-4f88-a579-8d333fb3aa11",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Setup and maintain Firebase Studio and Firebase tools."
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": "bullet"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "id": "545c3c00-258f-42f9-a478-8d142d0b9446",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Skilled Coder",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "number",
+                  "children": "number"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": [
+                  {
+                    "type": "text",
+                    "id": "59d05062-7282-4d4a-8d2a-d8bf92742f2d",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Develop and integrate coded solutions."
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": "bullet"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "id": "80692627-9997-41d7-b75c-2b2bb2ac6fa5",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "UI/UX Specialist",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "number",
+                  "children": "number"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": [
+                  {
+                    "type": "text",
+                    "id": "0999e40b-2b40-45b5-a535-6a98b847d5ea",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Research and apply mid-range UI designs, animations, and effects."
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": "bullet"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "e1817ee1-8c7c-4e31-bd94-0b2702588f86",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Present code and visual results."
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": "bullet"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "a932c347-74ab-4562-96c2-1948619b236c",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Sprint 1: Project Scaffolding, Branding & Firebase Setup #planning"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h2",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "4443e4ce-4f07-47eb-aa7f-f4a0a0f61cef",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Initialize the Turborepo monorepo with web, mobile, firebase, and ui packages"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "99073cbd-69ab-44ae-9a62-e058bb17ea85",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Set up the new Firebase project in the console (Auth, Firestore, Storage)"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "d2937dbd-cc1a-4df5-82c7-581d94b51318",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Create and configure .env files for Firebase API keys in both web and mobile apps"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "8df665dd-e331-49b2-aaf1-3becd09a078f",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Create the Firebase client initialization file (/firebase/client.ts) (Web App)"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a528fcda-15cf-4aad-8594-4bdb9007b3f5",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Create the Firebase client initialization file (/firebase/client.ts) (Mobile App)"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "2660abed-8f85-49ca-937d-e3408fc2ec56",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Create and export the shared Header.tsx component"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "7879a60d-62e6-4909-a14f-ba7d122838f1",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Install and configure Tailwind CSS (Web App)"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a091ba99-15a6-4a78-80c8-6b66c813b990",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Add the FairFreight color palette to tailwind.config.ts and set the global background color (Web App)"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "49945ee6-55a4-44d0-958a-1b0e57fe8f1a",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Create the shared theme.ts file under a packages/config directory"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "6ff8abb9-c2ae-41f1-85e1-8a7c161367d8",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Initialize the firebase folder for Cloud Functions with the Firebase CLI"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "b88f434e-be05-4ec2-b18f-87bc6c28d7e9",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Sprint 2: Core User Authentication (Web & Mobile) #development"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h2",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "b25eab8a-5adf-4d37-9007-4908dbc7a93c",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Write the initial, baseline Firestore Security Rules (must be authenticated to R/W)"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "cbf5a46c-ac8e-4cc6-a0d9-5900f4402eae",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Build the /auth page UI with sign-up and login forms styled with the FairFreight theme (Web App)"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "05d2307c-88d7-42b9-9c10-8f054e10ac57",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Build the Auth screens (Sign Up, Login) using FairFreight styles (Mobile App)"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "698ea61b-6819-4ee0-b434-62e245e5e36f",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Implement the sign-up logic (Firebase Auth + Firestore batched write for user & organization creation) (Web App)"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "02f04c25-823e-48b3-80e6-8ad8286d7fb9",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Implement the same sign-up and login logic as the web app (for transporters) (Mobile App)"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "40dedac8-5e6c-4a2a-b77c-e0755c1de5dd",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Implement the login logic (signInWithEmailAndPassword) (Web App)"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "b19a89a5-bd4f-4452-8c8d-0a8f63560b0b",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Set up React Navigation with a protected stack group for the main app content (Mobile App)"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "42db9d2a-0d74-4e2e-963b-4d0d1d4f9f1e",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Create a protected route HOC or middleware to redirect unauthenticated users (Web App)"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "02e7922d-9b76-4be6-b2c9-b0ad155ae3bd",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Sprint 3: Transporter Onboarding & Admin Vetting #development"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h2",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "6ea45052-45ea-4db7-8558-7e7bf2477338",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Create the multi-step Onboarding screen flow (Mobile App)"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "24da4fd2-c660-4810-b3c1-b0ae7e83bf57",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Build the UI forms to collect company and vehicle details (Mobile App)"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "323e0b41-160c-426c-8265-798307070c50",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Implement document upload functionality using expo-image-picker and Firebase Storage (Mobile App)"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "42e40cd1-aa84-4d62-9610-78f0806f89ff",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Create the admin-only /admin/vetting page UI (Web App)"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "121a9cd1-f5c1-4c4b-9853-e2a3c3b01968",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Implement the Firestore query to fetch all organizations with vettingStatus: 'pending' (Web App)"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "0349a3d7-bdcb-44c8-a412-b486a68d2c67",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Add 'View Documents' links and an 'Approve' button to each entry in the table (Web App)"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "81c1a163-63fa-4bbb-84b7-480bc0b287bc",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Write and deploy the approveTransporter callable Cloud Function (Backend)"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "622c84f3-6c08-43c2-95e3-9fa28bbc8f21",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Update Firestore Security Rules to protect document uploads and the admin area (Backend)"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "ba98742b-ccca-405b-91a7-5af3314961e0",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Sprint 4: Shipper Experience - Posting & Monitoring Jobs #development"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h2",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "d845a242-0f01-4eff-a934-a9183790410f",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Build the /jobs/new page and the CreateJobForm.tsx component (Web App)"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "96ed80ec-4a0f-4d82-a3cf-1078dfab674f",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Integrate Google Places API for address autocomplete (Web App)"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "e11de004-9e2c-49fb-b1a5-29850ac8450a",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Implement the logic to write a new job document to Firestore on form submission (Web App)"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "9bbe945c-222a-4252-8c1b-c5ff8030f977",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Build the dynamic /jobs/[jobId] page UI to display job details (Web App)"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "9e59e2f0-d5f4-4ffd-950f-a3e0553c05f1",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Implement the real-time listener on the bids sub-collection and display the results (Web App)"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "1845fd7d-8f79-46ab-83da-450fdd861cf4",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Refine security rules for the jobs collection (Backend)"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "c32f8024-b178-4394-b185-00f14f7fe627",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Sprint 5: Transporter Experience - Finding & Bidding on Jobs #development"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h2",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "489633fb-d93c-4c15-9147-6c116ca66dd5",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Build the 'Find Jobs' screen UI (Mobile App)"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "aa59c77e-d397-440d-925b-afebdf1dc0b7",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Implement the real-time Firestore query to fetch jobs where status === 'bidding' (Mobile App)"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "9f5c9fa6-f9ee-4060-8212-ea194e07eac8",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Build the JobDetails screen UI (Mobile App)"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "91dbdece-4359-4580-9476-1239f2dc5639",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Write security rules to ensure only approved transporters can see jobs and place bids (Backend)"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "120ea8f3-4eab-4fd6-b025-62e927826f23",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Implement the logic to write a new bid document to the /jobs/{jobId}/bids sub-collection (Mobile App)"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "3f165fb1-5311-4ea8-a994-06399232c13a",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Build the bidding modal UI (Mobile App)"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "26ee4a46-e5cd-456b-8832-5b503b5e3d69",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Sprint 6: Closing the Loop - Job Awarding & Execution #development"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h2",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "c62f1a3c-5083-423e-a22b-6d7959d739e8",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Add the 'Accept Bid' button to the bids list on the /jobs/[jobId] page (Web App)"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "f0ad8d63-4268-42b4-b84b-7b0da518d0e3",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Link the 'Accept Bid' button to trigger the awardJob Cloud Function (Web App)"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "663caa99-8467-4216-90cd-5ebbb8ed420f",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Write and deploy the transactional awardJob Cloud Function (Backend)"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "54006762-ba87-4cd2-9e1c-c2962a3d2aba",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Build the 'My Jobs' screen, showing awarded jobs (Mobile App)"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "0d17a9f7-2b93-4ced-9564-537efbe3850f",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Build the LiveJob management screen UI with its context-aware status button (Mobile App)"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "c7513eee-4214-4db0-874f-98f68c119df0",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Implement the Firestore updates for each status change (Mobile App)"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "96b4651b-c99e-4647-81ef-d8848c64292f",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Implement the final 'Upload POD' functionality (Mobile App)"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "e65d559c-f713-41e1-b396-fe04f65383f1",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Sprint 7: In-App Communication (Chat) #development"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h2",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "3b2da4ef-6145-46ba-b459-5d888ebc62d5",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Build the generic chat components (ChatWindow, MessageBubble, ChatInput) (Shared UI)"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a589cc1e-c285-4981-a6d1-d78a02586eae",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Integrate the chat components into the LiveJob screen (Mobile App)"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a10d5f2d-bd5e-42c8-a191-efc3e22cf45e",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Integrate the chat components into the /jobs/[jobId] page, visible only after a job is awarded (Web App)"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "b8aead73-d5a9-4f0d-8a42-f4de879e53b3",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Define and secure the chats collection and messages sub-collection (Backend)"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "34118657-8109-4db1-ae9c-028b1b71b4ee",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Sprint 8: Proactive Engagement (Push Notifications) #development"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h2",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "5c3644a2-d7b5-49b3-b775-a3a1430c2884",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Configure Firebase Cloud Messaging (FCM) and get APN/FCM keys (DevOps/Infra)"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "77e9ad7a-46d4-488e-acaa-b2488f9ce034",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Add logic to request notification permissions and save the FCM token to the user's Firestore document (Mobile App)"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "5af05afb-20c0-4940-b4b1-ab53c8a36231",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Modify the awardJob function to send notifications to the winner and losers (Backend)"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "7391f68c-99fd-4997-9d2a-4e78abb0026a",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Create a function that triggers on new messages in the chat collection to notify the recipient (Backend)"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "fdaf1248-04f9-4b69-a651-86c4036d68eb",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "(Optional) Create a function that notifies transporters of new relevant jobs (Backend)"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "c6dead16-90f5-4121-89bc-15775f311c35",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Sprint 9: Testing, Analytics & Deployment #testing #analytics #deployment"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h2",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@OxeBy": {
+                "type": "Select",
+                "optionId": "@0F5sG"
+              }
+            },
+            "children": [
+              {
+                "type": "text",
+                "id": "dbd53443-7023-498f-ab08-52f0f95bce8c",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Review and finalize all Firestore Security Rules for production (DevOps/Infra)"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "c5c1429a-04f9-4952-ac88-068cc66aa199",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Document and fix any bugs found (QA/Testing)"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "e9c7d73c-7f02-48e2-8bab-2ede71c8da62",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Perform comprehensive end-to-end testing of the entire core loop with multiple test accounts (QA/Testing)"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "9e80b3ab-5e96-4f87-95d8-14b7c06ab07f",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Choose and integrate an analytics provider (e.g., Mixpanel, PostHog, or Google Analytics) (Analytics)"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "3de2c3e2-db07-431a-86ee-5ebb85b6a4b4",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Add event tracking for key user actions: user_signup, job_created, bid_placed, job_awarded, pod_uploaded (Analytics)"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "16716a55-5a8e-4726-b8ca-266fa9746350",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Create a production build and set up hosting (Vercel is ideal) (Web App)"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "30ae994c-e8c7-4870-acb9-2ca4aae70f2c",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Use Expo Application Services (EAS) to build the standalone app binaries (.apk/.ipa) (Mobile App)"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "b010cfc2-4626-4d6c-b260-6683f6da9b11",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Prepare App Store and Google Play Store listings (Mobile App)"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "c42c4312-3d94-4f02-9fda-6c639f4a7179",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Ensure all Firebase plans are upgraded to a paid plan (Blaze) for launch (DevOps/Infra)"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "78f0bf8e-c53a-4ba9-a8ec-39027b849574",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Completed Tasks #completed "
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h1",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@oNB07": {
+                "type": "Select",
+                "optionId": "0b36d681-3ed3-4e13-8ce2-8799f10f904f"
+              }
+            },
+            "children": [
+              {
+                "type": "text",
+                "id": "a8fa0ed2-c4c4-4e0c-ab9d-23c38d4b5ebf",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "7813b180-f3e2-4c6d-b8ba-b456f67d9ace",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "c760e57c-d88c-41d0-9df0-c6f0288541db",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "views": {
+      "actionsheet": {
+        "id": "actionsheet",
+        "type": "actionsheet",
+        "rank": "F",
+        "columns": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7",
+            "width": 480
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A",
+            "hidden": true
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V",
+            "hidden": true
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c",
+            "hidden": true
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k",
+            "hidden": true
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s",
+            "hidden": true
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t",
+            "hidden": true
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u",
+            "hidden": true
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF",
+            "hidden": true
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF",
+            "hidden": true
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x",
+            "hidden": true
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y",
+            "hidden": true
+          },
+          "ab93b880-a4af-442b-b351-03bfb1f1b069": {
+            "id": "ab93b880-a4af-442b-b351-03bfb1f1b069",
+            "fieldPath": "/attributes/@OxeBy",
+            "rank": "z"
+          },
+          "f11b1765-6951-41be-9e36-c5940193aa5e": {
+            "id": "f11b1765-6951-41be-9e36-c5940193aa5e",
+            "fieldPath": "/attributes/@oNB07",
+            "rank": "zV"
+          }
+        }
+      },
+      "list": {
+        "id": "list",
+        "type": "list",
+        "rank": "A",
+        "displayedFields": {
+          "1757428d-8487-4568-8b2c-9494ed5a810a": {
+            "id": "1757428d-8487-4568-8b2c-9494ed5a810a",
+            "fieldPath": "/attributes/@OxeBy",
+            "rank": "V"
+          },
+          "0b283675-0859-4d16-bd9a-345adf2fee7d": {
+            "id": "0b283675-0859-4d16-bd9a-345adf2fee7d",
+            "fieldPath": "/attributes/@oNB07",
+            "rank": "k"
+          }
+        }
+      },
+      "board": {
+        "id": "board",
+        "type": "board",
+        "rank": "B",
+        "displayedFields": {
+          "39104d8d-68e3-4a58-9099-80676fd346fc": {
+            "id": "39104d8d-68e3-4a58-9099-80676fd346fc",
+            "fieldPath": "/attributes/@OxeBy",
+            "rank": "V"
+          },
+          "7e2e4c5d-fa70-4692-9453-aa3ae3cb3315": {
+            "id": "7e2e4c5d-fa70-4692-9453-aa3ae3cb3315",
+            "fieldPath": "/attributes/@oNB07",
+            "rank": "k"
+          }
+        }
+      },
+      "mindmap": {
+        "id": "mindmap",
+        "type": "mindmap",
+        "rank": "C",
+        "displayedFields": {
+          "a8c6e614-aa4b-45a4-a3c2-c1388c4c6586": {
+            "id": "a8c6e614-aa4b-45a4-a3c2-c1388c4c6586",
+            "fieldPath": "/attributes/@OxeBy",
+            "rank": "V"
+          },
+          "6aee3ee5-76e1-44f5-ab59-494721e7f96b": {
+            "id": "6aee3ee5-76e1-44f5-ab59-494721e7f96b",
+            "fieldPath": "/attributes/@oNB07",
+            "rank": "k"
+          }
+        }
+      },
+      "orgchart": {
+        "id": "orgchart",
+        "type": "orgchart",
+        "rank": "D",
+        "displayedFields": {
+          "6ad416c0-0df6-45a0-9d7b-8cf8e0569a0a": {
+            "id": "6ad416c0-0df6-45a0-9d7b-8cf8e0569a0a",
+            "fieldPath": "/attributes/@OxeBy",
+            "rank": "V"
+          },
+          "8358d599-b862-4a7f-a385-b92b8214b990": {
+            "id": "8358d599-b862-4a7f-a385-b92b8214b990",
+            "fieldPath": "/attributes/@oNB07",
+            "rank": "k"
+          }
+        }
+      },
+      "table": {
+        "id": "table",
+        "type": "table",
+        "rank": "F",
+        "columns": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7",
+            "width": 480
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A",
+            "hidden": true
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V",
+            "hidden": true
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c",
+            "hidden": true
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k",
+            "hidden": true
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s",
+            "hidden": true
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t",
+            "hidden": true
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u",
+            "hidden": true
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF",
+            "hidden": true
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF",
+            "hidden": true
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x",
+            "hidden": true
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y",
+            "hidden": true
+          },
+          "cef5137a-7068-4ce9-b1ee-a87be3dd31b1": {
+            "id": "cef5137a-7068-4ce9-b1ee-a87be3dd31b1",
+            "fieldPath": "/attributes/@OxeBy",
+            "rank": "z"
+          },
+          "354771d3-6fcb-410a-8e89-bbbffa95fdd6": {
+            "id": "354771d3-6fcb-410a-8e89-bbbffa95fdd6",
+            "fieldPath": "/attributes/@oNB07",
+            "rank": "zV"
+          }
+        }
+      }
+    },
+    "fields": {
+      "@OxeBy": {
+        "type": "Select",
+        "displayName": "Sprint",
+        "description": "Indicates the sprint phase associated with each task or objective.",
+        "options": {
+          "@iWlBW": {
+            "id": "@iWlBW",
+            "name": "Sprint 1: Project Scaffolding, Branding & Firebase Setup",
+            "rank": "1",
+            "description": "Initial setup and branding phase.",
+            "color": "#DDDDDD"
+          },
+          "@O6us9": {
+            "id": "@O6us9",
+            "name": "Sprint 2: Core User Authentication",
+            "rank": "2",
+            "description": "Focus on user authentication development.",
+            "color": "#CCCCCC"
+          },
+          "@lW2J3": {
+            "id": "@lW2J3",
+            "name": "Sprint 3: Transporter Onboarding & Admin Vetting",
+            "rank": "3",
+            "description": "Development related to onboarding and vetting.",
+            "color": "#BBBBBB"
+          },
+          "@WCBXm": {
+            "id": "@WCBXm",
+            "name": "Sprint 4: Shipper Experience - Posting & Monitoring Jobs",
+            "rank": "4",
+            "description": "Shipper's job posting and monitoring enhancements.",
+            "color": "#AAAAAA"
+          },
+          "@Y8Y_I": {
+            "id": "@Y8Y_I",
+            "name": "Sprint 5: Transporter Experience - Finding & Bidding on Jobs",
+            "rank": "5",
+            "description": "Features for transporters to find and bid on jobs.",
+            "color": "#999999"
+          },
+          "@ZRoln": {
+            "id": "@ZRoln",
+            "name": "Sprint 6: Closing the Loop - Job Awarding & Execution",
+            "rank": "6",
+            "description": "The phase for job awarding and execution.",
+            "color": "#888888"
+          },
+          "@8HgDK": {
+            "id": "@8HgDK",
+            "name": "Sprint 7: In-App Communication (Chat)",
+            "rank": "7",
+            "description": "Implementation of in-app communication features.",
+            "color": "#777777"
+          },
+          "@jQfuF": {
+            "id": "@jQfuF",
+            "name": "Sprint 8: Proactive Engagement (Push Notifications)",
+            "rank": "8",
+            "description": "Development of push notification features.",
+            "color": "#666666"
+          },
+          "@0F5sG": {
+            "id": "@0F5sG",
+            "name": "Sprint 9: Testing, Analytics & Deployment",
+            "rank": "9",
+            "description": "Final testing, analytics integration, and deployment tasks.",
+            "color": "#555555"
+          }
+        }
+      },
+      "@oNB07": {
+        "type": "Select",
+        "displayName": "TaskType",
+        "description": "The type of task being performed, categorized by its nature or focus.",
+        "options": {
+          "@aboRe": {
+            "id": "@aboRe",
+            "name": "Development",
+            "rank": "1",
+            "description": "Tasks related to coding and software development.",
+            "color": "#DDDDDD"
+          },
+          "@LTG_M": {
+            "id": "@LTG_M",
+            "name": "Planning",
+            "rank": "2",
+            "description": "Tasks related to project planning.",
+            "color": "#CCCCCC"
+          },
+          "@8zM5V": {
+            "id": "@8zM5V",
+            "name": "Testing",
+            "rank": "3",
+            "description": "Tasks related to quality assurance and testing.",
+            "color": "#BBBBBB"
+          },
+          "@Q4Pco": {
+            "id": "@Q4Pco",
+            "name": "DevOps/Infra",
+            "rank": "4",
+            "description": "Tasks related to infrastructure and deployment.",
+            "color": "#AAAAAA"
+          },
+          "@wY84y": {
+            "id": "@wY84y",
+            "name": "Analytics",
+            "rank": "5",
+            "description": "Tasks related to data tracking and analysis.",
+            "color": "#999999"
+          },
+          "@daHK1": {
+            "id": "@daHK1",
+            "name": "QA/Testing",
+            "rank": "6",
+            "description": "Quality assurance tasks to ensure software functionality.",
+            "color": "#888888"
+          },
+          "0b36d681-3ed3-4e13-8ce2-8799f10f904f": {
+            "id": "0b36d681-3ed3-4e13-8ce2-8799f10f904f",
+            "name": "Completed",
+            "rank": "Y",
+            "color": "#2AA652"
+          }
+        }
+      }
+    }
+  },
+  "preferences": {
+    "avatar": {
+      "type": "emoji",
+      "value": "🚚"
+    },
+    "coverImageType": "background"
+  }
+}

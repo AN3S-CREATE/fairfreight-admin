@@ -1,0 +1,585 @@
+{
+  "version": "1",
+  "name": "FairFright Development Manager",
+  "commands": [
+    {
+      "id": "initiate_project_scaffolding",
+      "mode": "default",
+      "name": "Initiate Project Scaffolding",
+      "prompt": "Set up the initial project scaffolding by creating a Turborepo monorepo with web, mobile, firebase, and UI packages. Ensure the structure is well-organized for easy expansion and management throughout the development lifecycle.",
+      "isBackgroundJob": false,
+      "searchToolEnabled": false
+    },
+    {
+      "id": "configure_firebase_project",
+      "mode": "default",
+      "name": "Configure Firebase Project",
+      "prompt": "Set up a new Firebase project in the console by configuring Auth, Firestore, and Storage. Ensure these services are properly initialized and connected to both the web and mobile applications.",
+      "isBackgroundJob": false,
+      "searchToolEnabled": false
+    },
+    {
+      "id": "design_ui_ux_components",
+      "mode": "default",
+      "name": "Design UI/UX Components",
+      "prompt": "Research and design mid-range UI components, animations, and effects for the project. Present these design elements to the team and ensure they align with the FairFreight theme. Implement the visual aspects in the codebase.",
+      "isBackgroundJob": false,
+      "searchToolEnabled": false
+    },
+    {
+      "id": "develop_core_features",
+      "mode": "default",
+      "name": "Develop Core Features",
+      "prompt": "Focus on coding and integrating core features such as authentication, onboarding, job management, and bidding. Leverage Firebase services and ensure all functionalities are securely implemented and effectively tested.",
+      "isBackgroundJob": false,
+      "searchToolEnabled": false
+    },
+    {
+      "id": "conduct_testing_and_deployment",
+      "mode": "default",
+      "name": "Conduct Testing and Deployment",
+      "prompt": "Perform comprehensive end-to-end testing across web and mobile platforms. Fix any identified bugs, and prepare the final production build. Deploy the web app using Vercel and manage mobile app binaries using Expo Application Services.",
+      "isBackgroundJob": false,
+      "searchToolEnabled": false
+    },
+    {
+      "id": "704091f4-1672-417d-b8db-b4370d1e2fa1",
+      "mode": "plan-and-execute-v1",
+      "name": " Prioritized action plan",
+      "prompt": "Generate a prioritized action plan to enhance the application, focusing on improving the user/client experience and driving new user acquisition.",
+      "isBackgroundJob": false
+    },
+    {
+      "id": "11546c92-899f-40fb-bb09-60d13e2d69bc",
+      "mode": "plan-and-execute-v1",
+      "name": "The Innovative Brainstorm",
+      "prompt": "Brainstorm three high-impact features to enhance the application. For each, detail its effect on the user experience, client value, and new user growth.",
+      "isBackgroundJob": false,
+      "searchToolEnabled": false
+    },
+    {
+      "id": "4b958e24-946c-40e4-8577-edbdce226cfe",
+      "mode": "plan-and-execute-v1",
+      "name": "The Competitive Edge",
+      "prompt": "Identify the single greatest opportunity for this application to gain a competitive advantage and propose an enhancement strategy to capture it.",
+      "isBackgroundJob": false
+    }
+  ],
+  "description": "You are a project manager and technical lead for the FairFright website and app development. Your responsibility is to oversee the development process, ensuring the project is completed efficiently and on schedule. Collaborate with team members, including a Firebase expert, skilled coder, and UI/UX specialist, to coordinate tasks like setting up the Turborepo monorepo, configuring Firebase, and integrating UI/UX designs. Manage sprints to achieve project milestones, such as implementing user authentication, transporter onboarding, and job management features. Test the application thoroughly, ensure all security measures are in place, and handle deployment to web and mobile platforms. Monitor the project's progress, address any issues, and ensure all team roles are effectively contributing to the project's success.",
+  "language": "en-US",
+  "toolbox": [
+    {
+      "id": "user:01K4SN33Y800Y7JY13GQH0PDMG",
+      "type": "user/automation/action",
+      "enabled": true,
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-media",
+        "actionName": "website.extract",
+        "pieceVersion": "BLANK"
+      }
+    },
+    {
+      "id": "user:01K4SN33Y80VT9ZPRCEAHAJP2H",
+      "type": "user/automation/action",
+      "enabled": true,
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-media",
+        "actionName": "web.search",
+        "pieceVersion": "BLANK"
+      }
+    },
+    {
+      "id": "user:01K4SN29YF612R4PXYDYNRZENY",
+      "type": "user/automation/action",
+      "enabled": true,
+      "approvalMode": "approve-required",
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-piece-gmail",
+        "actionName": "createDraftEmail",
+        "pieceVersion": "BLANK"
+      }
+    },
+    {
+      "id": "user:01K4SN29YF612R4PXYDYNRZENZ",
+      "type": "user/automation/action",
+      "enabled": true,
+      "approvalMode": "approve-required",
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-piece-gmail",
+        "actionName": "findEmail",
+        "pieceVersion": "BLANK"
+      }
+    },
+    {
+      "id": "user:01K4SN29YF612R4PXYDYNRZEPR",
+      "type": "user/automation/action",
+      "enabled": true,
+      "approvalMode": "auto-approve",
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-piece-google-drive",
+        "actionName": "googledrive.createNewTextFile",
+        "pieceVersion": "BLANK"
+      }
+    },
+    {
+      "id": "01K51KXS704NTF8YN0C4ZEVHKN",
+      "type": "openapi/action",
+      "config": {
+        "path": "DEFAULT",
+        "method": "GET",
+        "servers": [
+          {
+            "url": "https://www.taskade.com/api/v1"
+          }
+        ],
+        "description": "DEFAULT",
+        "operationId": "DEFAULT"
+      },
+      "enabled": true
+    },
+    {
+      "id": "user:01K51KXVCKDD21MZ0XYSX1WTMR",
+      "type": "user/automation/action",
+      "enabled": true,
+      "approvalMode": "auto-approve",
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-openai",
+        "actionName": "ai.ask",
+        "pieceVersion": "BLANK"
+      }
+    },
+    {
+      "id": "user:01K51KXVCNVMX0S0F1B99YAPBJ",
+      "type": "user/automation/action",
+      "enabled": true,
+      "approvalMode": "auto-approve",
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-openai",
+        "actionName": "ai.generate",
+        "pieceVersion": "BLANK"
+      }
+    },
+    {
+      "id": "user:01K51KXVCNA2JE3TK4SFBRDY7C",
+      "type": "user/automation/action",
+      "enabled": true,
+      "approvalMode": "auto-approve",
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-openai",
+        "actionName": "agent.ask",
+        "pieceVersion": "BLANK"
+      }
+    },
+    {
+      "id": "user:01K51KXVCPV6XPF5MNG5P19GDW",
+      "type": "user/automation/action",
+      "enabled": true,
+      "approvalMode": "auto-approve",
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-openai",
+        "actionName": "agent.run_command",
+        "pieceVersion": "BLANK"
+      }
+    },
+    {
+      "id": "user:01K51KYMYC1THGSGAN7QA1V96B",
+      "type": "user/automation/action",
+      "enabled": true,
+      "approvalMode": "approve-required",
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-piece-gmail",
+        "actionName": "sendEmail",
+        "pieceVersion": "BLANK"
+      }
+    }
+  ],
+  "avatar": {
+    "data": {
+      "value": "🛠️"
+    },
+    "type": "emoji"
+  },
+  "addToKnowledgeMediaVariables": [
+    {
+      "id": "c882a73c-5cbb-48fc-a011-162ebc135d4f",
+      "type": "agent-template-variable-input-type"
+    },
+    {
+      "id": "5a732007-56f2-4d0a-9367-4e14a7e0facb",
+      "type": "agent-template-variable-input-type"
+    },
+    {
+      "id": "eea0e620-6220-4346-9e3a-9baa1b9d31e1",
+      "type": "agent-template-variable-input-type"
+    },
+    {
+      "id": "8a49ba58-5463-4402-87be-fcf213443fd2",
+      "type": "agent-template-variable-input-type"
+    },
+    {
+      "id": "49f58af2-8c2f-4ee5-9fbb-0a3616be54dd",
+      "type": "agent-template-variable-input-type"
+    },
+    {
+      "id": "93f8482c-a61d-4b0b-b456-d85e814e3ab5",
+      "type": "agent-template-variable-input-type"
+    },
+    {
+      "id": "9aa930ab-aa0f-4830-9705-881a55d1a487",
+      "type": "agent-template-variable-input-type"
+    },
+    {
+      "id": "0aa88c86-b743-4120-a9b8-a39760d1dbf1",
+      "type": "agent-template-variable-input-type"
+    },
+    {
+      "id": "5798149d-eb54-4408-a30b-6ab92aee5ddc",
+      "type": "agent-template-variable-input-type"
+    },
+    {
+      "id": "c9e49481-bb9d-4e98-8519-f6b755d5f4db",
+      "type": "agent-template-variable-input-type"
+    },
+    {
+      "id": "2e2b6935-395c-4915-b108-33861cff4905",
+      "type": "agent-template-variable-input-type"
+    },
+    {
+      "id": "2ca436cb-fa04-48cd-8b2d-909da7a57f17",
+      "type": "agent-template-variable-input-type"
+    },
+    {
+      "id": "8c32c9d4-20c0-45da-93a2-109715d93fe9",
+      "type": "agent-template-variable-input-type"
+    },
+    {
+      "id": "e3dfd012-691a-4d8c-b998-5af14f6be005",
+      "type": "agent-template-variable-input-type"
+    },
+    {
+      "id": "ce3dc7fb-812c-4ed7-ace7-098a0481b253",
+      "type": "agent-template-variable-input-type"
+    },
+    {
+      "id": "4e71507b-32e3-47e0-bd1a-719d6833480d",
+      "type": "agent-template-variable-input-type"
+    },
+    {
+      "id": "57002f65-6d3c-439e-a40f-14c8bf55659c",
+      "type": "agent-template-variable-input-type"
+    },
+    {
+      "id": "c7b8901b-604d-4b7e-a144-52941e36618b",
+      "type": "agent-template-variable-input-type"
+    },
+    {
+      "id": "eb29d709-bfb7-4f33-b10f-23b3259aac1a",
+      "type": "agent-template-variable-input-type"
+    },
+    {
+      "id": "0740ee04-d44e-4da6-92a7-50d170148aff",
+      "type": "agent-template-variable-input-type"
+    },
+    {
+      "id": "a0613d76-5b1f-4a31-ba59-27cb86d252c7",
+      "type": "agent-template-variable-input-type"
+    },
+    {
+      "id": "511ce976-a3e5-404a-95f7-56289bf48290",
+      "type": "agent-template-variable-input-type"
+    },
+    {
+      "id": "a7a108af-84c4-47c4-998b-ee731b3a83cc",
+      "type": "agent-template-variable-input-type"
+    },
+    {
+      "id": "8b65452f-3b4f-46d5-b0f4-1607480ad45a",
+      "type": "agent-template-variable-input-type"
+    },
+    {
+      "id": "d58d2cc9-9091-4132-8863-8bccaec3838a",
+      "type": "agent-template-variable-input-type"
+    },
+    {
+      "id": "0ee2e7a2-6081-4620-9147-24b7d2bb609f",
+      "type": "agent-template-variable-input-type"
+    },
+    {
+      "id": "9290d70a-9c16-48e7-8442-3cd21a838b01",
+      "type": "agent-template-variable-input-type"
+    },
+    {
+      "id": "dbe266b8-ff0a-4d97-95f8-17ea90040a02",
+      "type": "agent-template-variable-input-type"
+    },
+    {
+      "id": "745fd65a-355c-479e-8545-3ccb67e880f0",
+      "type": "agent-template-variable-input-type"
+    },
+    {
+      "id": "9e2e14d2-edcb-4180-b6cf-eb5bdeabd952",
+      "type": "agent-template-variable-input-type"
+    },
+    {
+      "id": "2901ca58-5793-4066-a6ba-e61b91023fc3",
+      "type": "agent-template-variable-input-type"
+    },
+    {
+      "id": "07d3deeb-99d1-44e4-8dab-ba611a3bbdf1",
+      "type": "agent-template-variable-input-type"
+    },
+    {
+      "id": "5c55c125-e5f2-40b0-b43c-c1cdda30f259",
+      "type": "agent-template-variable-input-type"
+    },
+    {
+      "id": "e3355f96-89ba-488f-9644-dcaa584578e8",
+      "type": "agent-template-variable-input-type"
+    },
+    {
+      "id": "d81c7e40-c016-436f-92e1-28848058e201",
+      "type": "agent-template-variable-input-type"
+    },
+    {
+      "id": "6298377c-0c8d-48ab-b0a9-6d10228e4de8",
+      "type": "agent-template-variable-input-type"
+    },
+    {
+      "id": "d3a1186f-6812-4b1f-87aa-da4809265b10",
+      "type": "agent-template-variable-input-type"
+    },
+    {
+      "id": "f399c6c5-17f6-4764-924f-b0985296bcff",
+      "type": "agent-template-variable-input-type"
+    },
+    {
+      "id": "87459a4d-6f99-413e-a16d-be046442db56",
+      "type": "agent-template-variable-input-type"
+    },
+    {
+      "id": "5d2b949d-e3c1-406e-b7f8-93f54b7203ee",
+      "type": "agent-template-variable-input-type"
+    },
+    {
+      "id": "48684f31-9f96-4ccb-9ae6-7a4735ef88b6",
+      "type": "agent-template-variable-input-type"
+    }
+  ],
+  "variables": {
+    "c882a73c-5cbb-48fc-a011-162ebc135d4f": {
+      "id": "c882a73c-5cbb-48fc-a011-162ebc135d4f",
+      "rank": "V",
+      "type": "string"
+    },
+    "5a732007-56f2-4d0a-9367-4e14a7e0facb": {
+      "id": "5a732007-56f2-4d0a-9367-4e14a7e0facb",
+      "rank": "k",
+      "type": "string"
+    },
+    "eea0e620-6220-4346-9e3a-9baa1b9d31e1": {
+      "id": "eea0e620-6220-4346-9e3a-9baa1b9d31e1",
+      "rank": "s",
+      "type": "string"
+    },
+    "8a49ba58-5463-4402-87be-fcf213443fd2": {
+      "id": "8a49ba58-5463-4402-87be-fcf213443fd2",
+      "rank": "w",
+      "type": "string"
+    },
+    "49f58af2-8c2f-4ee5-9fbb-0a3616be54dd": {
+      "id": "49f58af2-8c2f-4ee5-9fbb-0a3616be54dd",
+      "rank": "y",
+      "type": "string"
+    },
+    "93f8482c-a61d-4b0b-b456-d85e814e3ab5": {
+      "id": "93f8482c-a61d-4b0b-b456-d85e814e3ab5",
+      "rank": "z",
+      "type": "string"
+    },
+    "9aa930ab-aa0f-4830-9705-881a55d1a487": {
+      "id": "9aa930ab-aa0f-4830-9705-881a55d1a487",
+      "rank": "zV",
+      "type": "string"
+    },
+    "0aa88c86-b743-4120-a9b8-a39760d1dbf1": {
+      "id": "0aa88c86-b743-4120-a9b8-a39760d1dbf1",
+      "rank": "zk",
+      "type": "string"
+    },
+    "5798149d-eb54-4408-a30b-6ab92aee5ddc": {
+      "id": "5798149d-eb54-4408-a30b-6ab92aee5ddc",
+      "rank": "zs",
+      "type": "string"
+    },
+    "c9e49481-bb9d-4e98-8519-f6b755d5f4db": {
+      "id": "c9e49481-bb9d-4e98-8519-f6b755d5f4db",
+      "rank": "zw",
+      "type": "string"
+    },
+    "2e2b6935-395c-4915-b108-33861cff4905": {
+      "id": "2e2b6935-395c-4915-b108-33861cff4905",
+      "rank": "zy",
+      "type": "string"
+    },
+    "2ca436cb-fa04-48cd-8b2d-909da7a57f17": {
+      "id": "2ca436cb-fa04-48cd-8b2d-909da7a57f17",
+      "rank": "zz",
+      "type": "string"
+    },
+    "8c32c9d4-20c0-45da-93a2-109715d93fe9": {
+      "id": "8c32c9d4-20c0-45da-93a2-109715d93fe9",
+      "rank": "zzV",
+      "type": "string"
+    },
+    "e3dfd012-691a-4d8c-b998-5af14f6be005": {
+      "id": "e3dfd012-691a-4d8c-b998-5af14f6be005",
+      "rank": "zzk",
+      "type": "string"
+    },
+    "ce3dc7fb-812c-4ed7-ace7-098a0481b253": {
+      "id": "ce3dc7fb-812c-4ed7-ace7-098a0481b253",
+      "rank": "zzs",
+      "type": "string"
+    },
+    "4e71507b-32e3-47e0-bd1a-719d6833480d": {
+      "id": "4e71507b-32e3-47e0-bd1a-719d6833480d",
+      "rank": "zzw",
+      "type": "string"
+    },
+    "57002f65-6d3c-439e-a40f-14c8bf55659c": {
+      "id": "57002f65-6d3c-439e-a40f-14c8bf55659c",
+      "rank": "zzy",
+      "type": "string"
+    },
+    "c7b8901b-604d-4b7e-a144-52941e36618b": {
+      "id": "c7b8901b-604d-4b7e-a144-52941e36618b",
+      "rank": "zzz",
+      "type": "string"
+    },
+    "eb29d709-bfb7-4f33-b10f-23b3259aac1a": {
+      "id": "eb29d709-bfb7-4f33-b10f-23b3259aac1a",
+      "rank": "zzzV",
+      "type": "string"
+    },
+    "0740ee04-d44e-4da6-92a7-50d170148aff": {
+      "id": "0740ee04-d44e-4da6-92a7-50d170148aff",
+      "rank": "zzzk",
+      "type": "string"
+    },
+    "a0613d76-5b1f-4a31-ba59-27cb86d252c7": {
+      "id": "a0613d76-5b1f-4a31-ba59-27cb86d252c7",
+      "rank": "zzzs",
+      "type": "string"
+    },
+    "511ce976-a3e5-404a-95f7-56289bf48290": {
+      "id": "511ce976-a3e5-404a-95f7-56289bf48290",
+      "rank": "zzzw",
+      "type": "string"
+    },
+    "a7a108af-84c4-47c4-998b-ee731b3a83cc": {
+      "id": "a7a108af-84c4-47c4-998b-ee731b3a83cc",
+      "rank": "zzzy",
+      "type": "string"
+    },
+    "8b65452f-3b4f-46d5-b0f4-1607480ad45a": {
+      "id": "8b65452f-3b4f-46d5-b0f4-1607480ad45a",
+      "rank": "zzzz",
+      "type": "string"
+    },
+    "d58d2cc9-9091-4132-8863-8bccaec3838a": {
+      "id": "d58d2cc9-9091-4132-8863-8bccaec3838a",
+      "rank": "zzzzV",
+      "type": "string"
+    },
+    "0ee2e7a2-6081-4620-9147-24b7d2bb609f": {
+      "id": "0ee2e7a2-6081-4620-9147-24b7d2bb609f",
+      "rank": "zzzzk",
+      "type": "string"
+    },
+    "9290d70a-9c16-48e7-8442-3cd21a838b01": {
+      "id": "9290d70a-9c16-48e7-8442-3cd21a838b01",
+      "rank": "zzzzs",
+      "type": "string"
+    },
+    "dbe266b8-ff0a-4d97-95f8-17ea90040a02": {
+      "id": "dbe266b8-ff0a-4d97-95f8-17ea90040a02",
+      "rank": "zzzzw",
+      "type": "string"
+    },
+    "745fd65a-355c-479e-8545-3ccb67e880f0": {
+      "id": "745fd65a-355c-479e-8545-3ccb67e880f0",
+      "rank": "zzzzy",
+      "type": "string"
+    },
+    "9e2e14d2-edcb-4180-b6cf-eb5bdeabd952": {
+      "id": "9e2e14d2-edcb-4180-b6cf-eb5bdeabd952",
+      "rank": "zzzzz",
+      "type": "string"
+    },
+    "2901ca58-5793-4066-a6ba-e61b91023fc3": {
+      "id": "2901ca58-5793-4066-a6ba-e61b91023fc3",
+      "rank": "zzzzzV",
+      "type": "string"
+    },
+    "07d3deeb-99d1-44e4-8dab-ba611a3bbdf1": {
+      "id": "07d3deeb-99d1-44e4-8dab-ba611a3bbdf1",
+      "rank": "zzzzzk",
+      "type": "string"
+    },
+    "5c55c125-e5f2-40b0-b43c-c1cdda30f259": {
+      "id": "5c55c125-e5f2-40b0-b43c-c1cdda30f259",
+      "rank": "zzzzzs",
+      "type": "string"
+    },
+    "e3355f96-89ba-488f-9644-dcaa584578e8": {
+      "id": "e3355f96-89ba-488f-9644-dcaa584578e8",
+      "rank": "zzzzzw",
+      "type": "string"
+    },
+    "d81c7e40-c016-436f-92e1-28848058e201": {
+      "id": "d81c7e40-c016-436f-92e1-28848058e201",
+      "rank": "zzzzzy",
+      "type": "string"
+    },
+    "6298377c-0c8d-48ab-b0a9-6d10228e4de8": {
+      "id": "6298377c-0c8d-48ab-b0a9-6d10228e4de8",
+      "rank": "zzzzzz",
+      "type": "string"
+    },
+    "d3a1186f-6812-4b1f-87aa-da4809265b10": {
+      "id": "d3a1186f-6812-4b1f-87aa-da4809265b10",
+      "rank": "zzzzzzV",
+      "type": "string"
+    },
+    "f399c6c5-17f6-4764-924f-b0985296bcff": {
+      "id": "f399c6c5-17f6-4764-924f-b0985296bcff",
+      "rank": "zzzzzzk",
+      "type": "string"
+    },
+    "87459a4d-6f99-413e-a16d-be046442db56": {
+      "id": "87459a4d-6f99-413e-a16d-be046442db56",
+      "rank": "zzzzzzs",
+      "type": "string"
+    },
+    "5d2b949d-e3c1-406e-b7f8-93f54b7203ee": {
+      "id": "5d2b949d-e3c1-406e-b7f8-93f54b7203ee",
+      "rank": "zzzzzzw",
+      "type": "string"
+    },
+    "48684f31-9f96-4ccb-9ae6-7a4735ef88b6": {
+      "id": "48684f31-9f96-4ccb-9ae6-7a4735ef88b6",
+      "rank": "zzzzzzy",
+      "type": "string"
+    }
+  }
+}

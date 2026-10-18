@@ -1,0 +1,47 @@
+{
+  "version": "2",
+  "flowTitle": "FairFright Development Manager Automation",
+  "trigger": {
+    "valid": true,
+    "type": "WEBHOOK"
+  },
+  "actions": [
+    {
+      "name": "cf521c01-e2ad-49e5-8533-1059ff8088d4",
+      "valid": false,
+      "displayName": "Run Agent Command",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-openai",
+        "pieceVersion": "BLANK",
+        "actionName": "agent.run_command",
+        "input": {
+          "agentId": {
+            "type": "flow-template-variable-input-type",
+            "id": "01K4SNBEMRM65YNGQZ06XYK7Z4"
+          }
+        }
+      }
+    },
+    {
+      "name": "f88799b8-26c3-4119-8578-13c5c9d35037",
+      "valid": false,
+      "displayName": "Create Project From Template",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "pieceVersion": "BLANK",
+        "actionName": "project.createFromTemplate",
+        "input": {}
+      }
+    }
+  ],
+  "variables": {
+    "01K4SNBEMRM65YNGQZ06XYK7Z4": {
+      "id": "01K4SNBEMRM65YNGQZ06XYK7Z4",
+      "rank": "V",
+      "type": "string",
+      "format": "taskade-space-agent-id"
+    }
+  }
+}

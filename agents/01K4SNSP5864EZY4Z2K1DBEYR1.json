@@ -1,0 +1,207 @@
+{
+  "version": "1",
+  "name": "FairFright Development Manager Agent",
+  "commands": [
+    {
+      "id": "initialize_project",
+      "mode": "plan-and-execute-v1",
+      "name": "Initialize Project",
+      "prompt": "Begin the project by setting up all tasks, presets, categories , assigning users, statues and categorizing lists and placing tasks where the need to be allocate, automation and everything else associated with setting up a Taskade project ",
+      "isBackgroundJob": true,
+      "searchToolEnabled": false
+    },
+    {
+      "id": "task_assignment",
+      "mode": "plan-and-execute-v1",
+      "name": "Task Assignment",
+      "prompt": "Assign tasks to project members. Ensure that both @andries-lieb and @gq6g5ys4mf are together per  tasks when you   assign tasks",
+      "isBackgroundJob": false,
+      "searchToolEnabled": false
+    },
+    {
+      "id": "firebase_setup",
+      "mode": "plan-and-execute-v1",
+      "name": "Firebase Setup",
+      "prompt": "Configure All tasks by adding a  Firebase Studio AI prompt to achiev the task with successful outcome in Firebase studio",
+      "isBackgroundJob": true,
+      "searchToolEnabled": false
+    },
+    {
+      "id": "ui_design_search",
+      "mode": "plan-and-execute-v1",
+      "name": "UI & Design Search",
+      "prompt": "Search for new UI designs, animations, and effects. Present the code and visuals for potential implementation in the project. This should enhance the overall user experience.",
+      "isBackgroundJob": false,
+      "searchToolEnabled": true
+    },
+    {
+      "id": "progress_monitoring",
+      "mode": "plan-and-execute-v1",
+      "name": "Progress Monitoring",
+      "prompt": "Monitor the progress of each sprint, updating the schedule and making adjustments as necessary to ensure timely completion. Communicate updates to all team members.",
+      "isBackgroundJob": false,
+      "searchToolEnabled": false
+    },
+    {
+      "id": "485bad10-8b90-4a12-8598-27f6f67a35ce",
+      "mode": "plan-and-execute-v1",
+      "name": "Task Complete ",
+      "prompt": "🔧 Taskade Actions  Move these tasks to Complete as they are completed in this phase of development.",
+      "isBackgroundJob": false,
+      "searchToolEnabled": false
+    }
+  ],
+  "description": "You are a Project Manager tasked with developing the FairFright website and app. Your role involves scheduling, task assignment to developers, Firebase experts, and coordinating design elements. You must ensure all aspects are automated and efficient, managing resources effectively. Engage in continuous progress monitoring, communication with developers, and presentation of UI effects and animations. Overall, your goal is to deliver an active and streamlined development process for each sprint.",
+  "language": "en-US",
+  "toolbox": [
+    {
+      "id": "user:01K4SNGG372T4TA8E7C839Y85N",
+      "type": "user/automation/action",
+      "enabled": true,
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-media",
+        "actionName": "website.extract",
+        "pieceVersion": "BLANK"
+      }
+    },
+    {
+      "id": "user:01K4SNGG37WWSGGYKJ7BRJNK1H",
+      "type": "user/automation/action",
+      "enabled": true,
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-media",
+        "actionName": "web.search",
+        "pieceVersion": "BLANK"
+      }
+    },
+    {
+      "id": "user:01K4SNFWN1AR5TNN7M2SKVEWWB",
+      "type": "user/automation/action",
+      "enabled": true,
+      "approvalMode": "auto-approve",
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-openai",
+        "actionName": "ai.ask",
+        "pieceVersion": "BLANK"
+      }
+    },
+    {
+      "id": "user:01K4SNFWN1AR5TNN7M2SKVEWWC",
+      "type": "user/automation/action",
+      "enabled": true,
+      "approvalMode": "auto-approve",
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-openai",
+        "actionName": "ai.generate",
+        "pieceVersion": "BLANK"
+      }
+    },
+    {
+      "id": "user:01K4SNFWN1AR5TNN7M2SKVEWWF",
+      "type": "user/automation/action",
+      "enabled": true,
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-media",
+        "actionName": "pdf.convertToText",
+        "pieceVersion": "BLANK"
+      }
+    },
+    {
+      "id": "01K4SW7RQ1DCFJTQDQ5RVN3BFG",
+      "type": "openapi/action",
+      "config": {
+        "path": "DEFAULT",
+        "method": "GET",
+        "servers": [
+          {
+            "url": "https://www.taskade.com/api/v1"
+          }
+        ],
+        "description": "DEFAULT",
+        "operationId": "DEFAULT"
+      },
+      "enabled": true
+    },
+    {
+      "id": "user:01K4SW896NVQNGKG7JBW9495JZ",
+      "type": "user/automation/action",
+      "enabled": true,
+      "approvalMode": "auto-approve",
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-openai",
+        "actionName": "agent.ask",
+        "pieceVersion": "BLANK"
+      }
+    },
+    {
+      "id": "user:01K4SW8DA4G35NB0537ZN7VWSC",
+      "type": "user/automation/action",
+      "enabled": true,
+      "approvalMode": "auto-approve",
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-openai",
+        "actionName": "agent.run_command",
+        "pieceVersion": "BLANK"
+      }
+    },
+    {
+      "id": "user:01K548ZWJBC61TZNP4DZGN8DHM",
+      "type": "user/automation/action",
+      "enabled": true,
+      "approvalMode": "approve-required",
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-media",
+        "actionName": "text.addToMedia",
+        "pieceVersion": "BLANK"
+      }
+    },
+    {
+      "id": "user:01K548ZXQYDN0R59XV9RMDVCR0",
+      "type": "user/automation/action",
+      "enabled": true,
+      "approvalMode": "approve-required",
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-media",
+        "actionName": "youtube.transcribeVideo",
+        "pieceVersion": "BLANK"
+      }
+    }
+  ],
+  "avatar": {
+    "data": {
+      "value": "🗂️"
+    },
+    "type": "emoji"
+  },
+  "variables": {
+    "7sBxgjLoDnnRSCtj": {
+      "id": "7sBxgjLoDnnRSCtj",
+      "rank": "V",
+      "type": "string"
+    },
+    "XEYjeG2136v5ED2B": {
+      "id": "XEYjeG2136v5ED2B",
+      "rank": "k",
+      "type": "string"
+    }
+  },
+  "addToKnowledgeProjectVariables": [
+    {
+      "id": "7sBxgjLoDnnRSCtj",
+      "type": "agent-template-variable-input-type"
+    },
+    {
+      "id": "XEYjeG2136v5ED2B",
+      "type": "agent-template-variable-input-type"
+    }
+  ]
+}
